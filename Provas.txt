@@ -1,0 +1,6 @@
+estudem para a prova dia 23
+variáveis
+operadores
+if else
+for
+while
