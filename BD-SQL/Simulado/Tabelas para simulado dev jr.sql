@@ -61,11 +61,11 @@ INSERT INTO pedidos (cliente_id, data) VALUES
 (4, '2024-03-01');
 
 -- TABELA: usuarios
-CREATE TABLE usuarios (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    email VARCHAR(100) UNIQUE,
-    criado_em DATE DEFAULT CURRENT_DATE
+ CREATE TABLE usuarios (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ nome VARCHAR(100) NOT NULL,
+ email VARCHAR(100) UNIQUE,
+ criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 INSERT INTO usuarios (nome, email) VALUES
